@@ -1,6 +1,6 @@
 import math
 
-sides = float(input('Please enter sides of the equilateral triangle: '))
+sides = int(input('Please enter sides of the equilateral triangle: '))
 
 # Area of equilateral triangle
 P_eqTr = (sides ** 2 * math.sqrt(3)) / 4
